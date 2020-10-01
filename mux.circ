@@ -269,9 +269,15 @@ end TCL_Generic;
       <a name="label" val="m"/>
       <a name="output" val="true"/>
     </comp>
-    <comp loc="(520,220)" name="mux2to1"/>
-    <comp loc="(520,310)" name="mux2to1"/>
-    <comp loc="(750,220)" name="mux2to1"/>
+    <comp loc="(520,220)" name="mux2to1">
+      <a name="label" val="mux2to1_1"/>
+    </comp>
+    <comp loc="(520,310)" name="mux2to1">
+      <a name="label" val="mux2to1_3"/>
+    </comp>
+    <comp loc="(750,220)" name="mux2to1">
+      <a name="label" val="mux2to1_2"/>
+    </comp>
     <wire from="(200,220)" to="(300,220)"/>
     <wire from="(200,260)" to="(250,260)"/>
     <wire from="(200,300)" to="(230,300)"/>
