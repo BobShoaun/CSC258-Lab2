@@ -270,76 +270,14 @@ end TCL_Generic;
       <a name="output" val="true"/>
     </comp>
     <comp loc="(520,220)" name="mux2to1">
-      <a name="label" val="mux2to1_1"/>
+      <a name="label" val="mux2to1_0"/>
     </comp>
     <comp loc="(520,310)" name="mux2to1">
-      <a name="label" val="mux2to1_3"/>
+      <a name="label" val="mux2to1_1"/>
     </comp>
     <comp loc="(750,220)" name="mux2to1">
       <a name="label" val="mux2to1_2"/>
     </comp>
-    <wire from="(200,220)" to="(300,220)"/>
-    <wire from="(200,260)" to="(250,260)"/>
-    <wire from="(200,300)" to="(230,300)"/>
-    <wire from="(200,340)" to="(210,340)"/>
-    <wire from="(210,330)" to="(210,340)"/>
-    <wire from="(210,330)" to="(300,330)"/>
-    <wire from="(230,240)" to="(230,300)"/>
-    <wire from="(230,240)" to="(300,240)"/>
-    <wire from="(250,260)" to="(250,310)"/>
-    <wire from="(250,310)" to="(300,310)"/>
-    <wire from="(270,410)" to="(280,410)"/>
-    <wire from="(280,260)" to="(280,350)"/>
-    <wire from="(280,260)" to="(300,260)"/>
-    <wire from="(280,350)" to="(280,410)"/>
-    <wire from="(280,350)" to="(300,350)"/>
-    <wire from="(520,220)" to="(530,220)"/>
-    <wire from="(520,240)" to="(520,310)"/>
-    <wire from="(520,240)" to="(530,240)"/>
-    <wire from="(520,410)" to="(530,410)"/>
-    <wire from="(530,260)" to="(530,410)"/>
-  </circuit>
-  <circuit name="mux4to1_de1soc">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="mux4to1_de1soc"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(200,220)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_0"/>
-    </comp>
-    <comp lib="0" loc="(200,260)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_1"/>
-    </comp>
-    <comp lib="0" loc="(200,300)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_2"/>
-    </comp>
-    <comp lib="0" loc="(200,340)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_3"/>
-    </comp>
-    <comp lib="0" loc="(270,410)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_9"/>
-    </comp>
-    <comp lib="0" loc="(520,410)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="SW_8"/>
-    </comp>
-    <comp lib="0" loc="(750,220)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="LEDR_0"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp loc="(520,220)" name="mux2to1"/>
-    <comp loc="(520,310)" name="mux2to1"/>
-    <comp loc="(750,220)" name="mux2to1"/>
     <wire from="(200,220)" to="(300,220)"/>
     <wire from="(200,260)" to="(250,260)"/>
     <wire from="(200,300)" to="(230,300)"/>

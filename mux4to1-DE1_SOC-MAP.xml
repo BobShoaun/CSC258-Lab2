@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<LogisimGoesFPGABoardMapInformation>
-   <GlobalMapInformation BoardName="DE1_SOC" ToplevelCircuitName="mux4to1"/>
-   <MAPPEDCOMPONENT_1 Height="30" Key="PIN: /u#Button0" LocationX="90" LocationY="337" Width="21"/>
-</LogisimGoesFPGABoardMapInformation>
